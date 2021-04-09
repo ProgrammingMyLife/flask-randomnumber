@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- github thing-->
+<style>
+    footer {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        background-color: white;
+    }
+
+    p.watermark {
+        position: absolute;
+        width: 100%;
+        color: #fff;
+        line-height: 40px;
+        font-size: 0.7em;
+        text-align: center;
+        bottom: 0;
+    }
+</style>
+
+<body>
+    <!--Header Div-->
+    <div>
+        <center> <b> Random Number Generator</b></center>
+        <hr>
+    </div>
+
+
+
+    <!--Input boxes-->
+    <div>
+        <form method="POST">
+            <center><a> Starting Number</a></center>
+            <center> <input name="start"> </input></center>
+            <center><a> Ending Number</a></center>
+            <center> <input name="end"> </input></center>
+            <center><input type="submit"></center>
+        </form>
+    </div>
+    <!--Result-->
+    <div>
+        <center>
+
+            <a>{{data}}</a>
+
+        </center>
+    </div>
+    <footer>
+        <center><p class="github"> Like this script? Find me on <a href="https://github.com/ProgrammingMyLife/flask-randomnumber">github</a></p></center>
+    </footer>
+
+
+
+</body>
+
+</html>
